@@ -52,3 +52,24 @@ func main() {
 // Var dapat digunakan di dalam dan di luar fungsi sementara := hanya dapat digunakan di dalam fungsi
 // Var dapat melakukan deklarasi variabel dan penetapan nilai secara terpisah
 // sementara dengan := tidak dapat melakukan deklarasi variabel secara terpisah (harus dilakukan pada baris yang sama)
+
+// PENAMAAN VARIABEL
+
+// Nama variabel harus dimulai dengan huruf atau karakter garis bawah (_)
+// Nama variabel tidak boleh dimulai dengan angka
+// Nama variabel hanya boleh berisi karakter alfanumerik dan garis bawah (a-z, A-Z, 0-9, dan _ )
+// Nama variabel peka huruf besar/kecil (age, Age, dan AGE adalah tiga variabel berbeda)
+// Tidak ada batasan panjang nama variabel
+// Nama variabel tidak boleh mengandung spasi
+// Nama variabel tidak boleh berupa kata kunci Go apa pun
+
+// Nama Variabel Multi-Kata, ada beberapa teknik yang dapat digunakan untuk membuatnya lebih mudah dibaca:
+
+// Camel Case
+// Setiap kata, kecuali yang pertama, dimulai dengan huruf kapital: myVariableName = "John"
+
+// Pascal Case
+// Setiap kata dimulai dengan huruf kapital: MyVariableName = "John"
+
+// Snake Case
+// Setiap kata dipisahkan oleh karakter garis bawah: my_variable_name = "John"
