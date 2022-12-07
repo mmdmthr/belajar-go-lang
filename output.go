@@ -34,4 +34,6 @@ func main() {
 	fmt.Printf("k has value: %v and type: %T\n", k, k)
 	fmt.Printf("l has value: %v and type: %T\n", l, l)
 
+	// selengkapnya tentang formatting verbs https://www.w3schools.com/go/go_formatting_verbs.php
+
 }
